@@ -44,9 +44,14 @@ kubectl scale deployment my-deployment –replicas=70
 
 3. Simulate a Bad Update
    
-kubectl apply -f bad-update.yaml
+kubectl apply -f deployment.yaml
 
-    • Introduces a broken image or misconfigured container
+    • Introduces a broken image or misconfigured container:
+      spec:
+      containers:
+      - name: myapp-container
+        image: nginx:broken-version
+        ports:
     • Causes pods to crash or fail readiness checks
     
 4. Roll Back to Previous Version
