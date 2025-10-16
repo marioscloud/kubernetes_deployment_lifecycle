@@ -9,8 +9,8 @@ The goal is to illustrate real-world DevOps practices using declarative configur
 🛠️ What This Project Covers
 
     • ✅ Creating a Kubernetes Deployment using a YAML manifest
-    • ✅ Running the deployment with 20 pods
-    • ✅ Scaling the deployment up to 20 pods, then down to 7
+    • ✅ Running the deployment with 80 pods
+    • ✅ Scaling the deployment up to 100 pods, then down to 70
     • ✅ Simulating a bad update (e.g., broken image or misconfiguration)
     • ✅ Performing a rollout rollback to the previous stable version
     • ✅ Verifying the rollback and restoring service health
