@@ -19,7 +19,7 @@ The goal is to illustrate real-world DevOps practices using declarative configur
 
 ├── deployment.yaml          # Initial deployment manifest
 
-├── bad-update.yaml          # Simulated faulty update
+├── deployment.yaml          # Simulated faulty update
 
 ├── README.md                # Project documentation
 
