@@ -33,7 +33,7 @@ kubectl apply -f deployment.yaml
     • Uses labels and selectors for pod management
       
 
-2. Scale the Deployment
+2. Scale (UP/Down) the Deployment
    
 kubectl scale deployment my-deployment --replicas=100
 
