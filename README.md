@@ -36,6 +36,7 @@ kubectl apply -f deployment.yaml
 2. Scale the Deployment
    
 kubectl scale deployment my-deployment --replicas=100
+
 kubectl scale deployment my-deployment –replicas=70
 
     • Demonstrates horizontal scaling
